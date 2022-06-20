@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"End to End testing of Categories data","Create a new Categories & verify if the Categories is added","SUCCESS","2022-06-19T13:36:02.094+01:00[Europe/London]","0.0","0.05"
+"End to End testing of Categories data","Verify the Categories data are successfully created","SUCCESS","2022-06-19T13:36:02.217+01:00[Europe/London]","0.0","0.03"
+"End to End testing of Categories data","Update the Categories data for given ID","SUCCESS","2022-06-19T13:36:02.294+01:00[Europe/London]","0.0","0.05"
+"End to End testing of Categories data","Delete the Prodct data for given ID & verify the record are deleted successfully","SUCCESS","2022-06-19T13:36:02.394+01:00[Europe/London]","0.0","0.17"

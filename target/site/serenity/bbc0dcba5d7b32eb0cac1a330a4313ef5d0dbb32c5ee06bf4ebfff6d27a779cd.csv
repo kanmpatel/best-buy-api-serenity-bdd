@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"End to End testing of Product data","Create a new Products & verify if the Product is added","SUCCESS","2022-06-19T13:35:57.135+01:00[Europe/London]","0.0","3.36"
+"End to End testing of Product data","Verify the Product data are successfully created","SUCCESS","2022-06-19T13:36:01.504+01:00[Europe/London]","0.0","0.09"
+"End to End testing of Product data","Update the product data for given ID","SUCCESS","2022-06-19T13:36:01.618+01:00[Europe/London]","0.0","0.05"
+"End to End testing of Product data","Delete the Prodct data for given ID & verify the record are deleted successfully","SUCCESS","2022-06-19T13:36:01.684+01:00[Europe/London]","0.0","0.06"

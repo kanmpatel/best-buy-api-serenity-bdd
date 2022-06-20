@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"End to End testing of Stores data","Create a new Stores & verify if the Stores is added","SUCCESS","2022-06-19T13:36:01.774+01:00[Europe/London]","0.0","0.06"
+"End to End testing of Stores data","Verify the Stores data are successfully created","SUCCESS","2022-06-19T13:36:01.866+01:00[Europe/London]","0.0","0.03"
+"End to End testing of Stores data","Update the Stores data for given ID","SUCCESS","2022-06-19T13:36:01.925+01:00[Europe/London]","0.0","0.06"
+"End to End testing of Stores data","Delete the stores data for given ID & verify the record are deleted successfully","SUCCESS","2022-06-19T13:36:02.009+01:00[Europe/London]","0.0","0.05"

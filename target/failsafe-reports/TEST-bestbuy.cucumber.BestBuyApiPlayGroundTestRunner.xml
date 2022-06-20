@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="bestbuy.cucumber.BestBuyApiPlayGroundTestRunner" time="1.6" tests="72" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="idea.version" value="2021.3.3"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\megha\IdeaProjects\best-buy-api-playground-serenity-bdd"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\megha\IdeaProjects\best-buy-api-playground-serenity-bdd"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\megha\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\Git\cmd;C:\Program Files\Apache\apache-maven-3.8.5\bin;C:\Program Files\nodejs\;C:\Users\megha\AppData\Local\Microsoft\WindowsApps;C:\Users\megha\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\megha"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="megha"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2021.3.3 clean verify serenity:aggregate"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="When I sends the Post Request for create the Product Data" classname="Scenario: Create a new Products &amp; verify if the Product is added" time="0"/>
+  <testcase name="And I insert the name &quot;Laptop&quot;,type &quot;lenovo&quot;,price 45000,shipping 2,upc &quot;Any&quot;,description &quot;HighQuality&quot;,manufacturer &quot;2018&quot;,model &quot;215365&quot;,url &quot;http://laptopword.com&quot;,image &quot;lenovo.jpg&quot;" classname="Scenario: Create a new Products &amp; verify if the Product is added" time="0"/>
+  <testcase name="Then I verify the status code 201" classname="Scenario: Create a new Products &amp; verify if the Product is added" time="0"/>
+  <testcase name="And I get the id of new created product data" classname="Scenario: Create a new Products &amp; verify if the Product is added" time="0"/>
+  <testcase name="Scenario: Create a new Products &amp; verify if the Product is added" classname="Scenario: Create a new Products &amp; verify if the Product is added" time="1.01"/>
+  <testcase name="When I sends a GET request for fatching product data by given ID" classname="Scenario: Verify the Product data are successfully created" time="0"/>
+  <testcase name="Then I verify the name is &quot;Laptop&quot;" classname="Scenario: Verify the Product data are successfully created" time="0"/>
+  <testcase name="Scenario: Verify the Product data are successfully created" classname="Scenario: Verify the Product data are successfully created" time="0.021"/>
+  <testcase name="When I send the Put Request for updating the Product data" classname="Scenario: Update the product data for given ID" time="0"/>
+  <testcase name="And I update the name &quot;asus&quot;,type &quot;lenovo1&quot;,price 450003,shipping 3" classname="Scenario: Update the product data for given ID" time="0"/>
+  <testcase name="Then I verify the status code for update 200" classname="Scenario: Update the product data for given ID" time="0"/>
+  <testcase name="And I verify the name is &quot;asus&quot; for updating the record" classname="Scenario: Update the product data for given ID" time="0"/>
+  <testcase name="Scenario: Update the product data for given ID" classname="Scenario: Update the product data for given ID" time="0.02"/>
+  <testcase name="When I sends the Delete Request for deleting the product  given ID" classname="Scenario: Delete the Prodct data for given ID &amp; verify the record are deleted successfully" time="0"/>
+  <testcase name="Then I verify the status code for delete 200" classname="Scenario: Delete the Prodct data for given ID &amp; verify the record are deleted successfully" time="0"/>
+  <testcase name="And I get the data for deleted record ID" classname="Scenario: Delete the Prodct data for given ID &amp; verify the record are deleted successfully" time="0"/>
+  <testcase name="And I verify the status code for delete verify 404" classname="Scenario: Delete the Prodct data for given ID &amp; verify the record are deleted successfully" time="0"/>
+  <testcase name="Scenario: Delete the Prodct data for given ID &amp; verify the record are deleted successfully" classname="Scenario: Delete the Prodct data for given ID &amp; verify the record are deleted successfully" time="0.026"/>
+  <testcase name="Scenario: Delete the Prodct data for given ID &amp; verify the record are deleted successfully" classname="Scenario: Delete the Prodct data for given ID &amp; verify the record are deleted successfully" time="0.054"/>
+  <testcase name="When I sends the Post Request for create the Stores Data" classname="Scenario: Create a new Stores &amp; verify if the Stores is added" time="0"/>
+  <testcase name="And I insert the name &quot;VB &amp; son&apos;s&quot;,type &quot;Cash &amp; carry&quot;,address &quot;Tooting&quot;,addresss &quot;london&quot;,city &quot;London&quot;,state &quot;South East&quot;,zip &quot;1234656&quot;,lat = 123456,lng = 123,hours = &quot;24Hours&quot;" classname="Scenario: Create a new Stores &amp; verify if the Stores is added" time="0"/>
+  <testcase name="Then I verify the status code 201 for Stores data" classname="Scenario: Create a new Stores &amp; verify if the Stores is added" time="0"/>
+  <testcase name="And I get the id of new created Stores data" classname="Scenario: Create a new Stores &amp; verify if the Stores is added" time="0"/>
+  <testcase name="Scenario: Create a new Stores &amp; verify if the Stores is added" classname="Scenario: Create a new Stores &amp; verify if the Stores is added" time="0.029"/>
+  <testcase name="When I sends a GET request for fatching Stores data by given ID" classname="Scenario: Verify the Stores data are successfully created" time="0"/>
+  <testcase name="Then I verify the name is for created record &quot;VB &amp; son&apos;s&quot; for stores" classname="Scenario: Verify the Stores data are successfully created" time="0"/>
+  <testcase name="Scenario: Verify the Stores data are successfully created" classname="Scenario: Verify the Stores data are successfully created" time="0.031"/>
+  <testcase name="When I send the Put Request for updating the Stores data" classname="Scenario: Update the Stores data for given ID" time="0"/>
+  <testcase name="And I update the name &quot;shop&quot;,type &quot;Cash &amp; carry&quot;,address &quot;Tooting&quot; for stores" classname="Scenario: Update the Stores data for given ID" time="0"/>
+  <testcase name="Then I verify the status code 200 for update Stores data" classname="Scenario: Update the Stores data for given ID" time="0"/>
+  <testcase name="And I verify the name is &quot;shop&quot; for updating the Stores data" classname="Scenario: Update the Stores data for given ID" time="0"/>
+  <testcase name="Scenario: Update the Stores data for given ID" classname="Scenario: Update the Stores data for given ID" time="0.024"/>
+  <testcase name="When I sends the Delete Request for deleting the Stores  given ID" classname="Scenario: Delete the stores data for given ID &amp; verify the record are deleted successfully" time="0"/>
+  <testcase name="Then I verify the status code 200 for delete Stores data" classname="Scenario: Delete the stores data for given ID &amp; verify the record are deleted successfully" time="0"/>
+  <testcase name="And I get the data for deleted record ID for Stores data" classname="Scenario: Delete the stores data for given ID &amp; verify the record are deleted successfully" time="0"/>
+  <testcase name="And I verify the status code 404 for verifing the delete record for stores" classname="Scenario: Delete the stores data for given ID &amp; verify the record are deleted successfully" time="0"/>
+  <testcase name="Scenario: Delete the stores data for given ID &amp; verify the record are deleted successfully" classname="Scenario: Delete the stores data for given ID &amp; verify the record are deleted successfully" time="0.037"/>
+  <testcase name="When I sends the Post Request for create the Categories Data" classname="Scenario: Create a new Categories &amp; verify if the Categories is added" time="0"/>
+  <testcase name="And I insert the name &quot;cash &amp; carry&quot;,id &quot;ABC&quot;" classname="Scenario: Create a new Categories &amp; verify if the Categories is added" time="0"/>
+  <testcase name="Then I verify the status code 201 for categories data" classname="Scenario: Create a new Categories &amp; verify if the Categories is added" time="0"/>
+  <testcase name="And I get the id of new created Categories data" classname="Scenario: Create a new Categories &amp; verify if the Categories is added" time="0"/>
+  <testcase name="Scenario: Create a new Categories &amp; verify if the Categories is added" classname="Scenario: Create a new Categories &amp; verify if the Categories is added" time="0.073"/>
+  <testcase name="When I sends a GET request for fatching Categories data by given ID" classname="Scenario: Verify the Categories data are successfully created" time="0"/>
+  <testcase name="Then I verify the name is for created record &quot;cash &amp; carry&quot;" classname="Scenario: Verify the Categories data are successfully created" time="0"/>
+  <testcase name="Scenario: Verify the Categories data are successfully created" classname="Scenario: Verify the Categories data are successfully created" time="0.044"/>
+  <testcase name="When I send the Put Request for updating the Categories data" classname="Scenario: Update the Categories data for given ID" time="0"/>
+  <testcase name="And I update the name &quot;shop&quot;" classname="Scenario: Update the Categories data for given ID" time="0"/>
+  <testcase name="Then I verify the status code 200 for update categories data" classname="Scenario: Update the Categories data for given ID" time="0"/>
+  <testcase name="And I verify the name is &quot;shop&quot; for updating the categories data" classname="Scenario: Update the Categories data for given ID" time="0"/>
+  <testcase name="Scenario: Update the Categories data for given ID" classname="Scenario: Update the Categories data for given ID" time="0.049"/>
+  <testcase name="When I sends the Delete Request for deleting the Categories  given ID" classname="Scenario: Delete the Prodct data for given ID &amp; verify the record are deleted successfully" time="0"/>
+  <testcase name="Then I verify the status code 200 for delete categories data" classname="Scenario: Delete the Prodct data for given ID &amp; verify the record are deleted successfully" time="0"/>
+  <testcase name="And I get the data for deleted record ID for categories data" classname="Scenario: Delete the Prodct data for given ID &amp; verify the record are deleted successfully" time="0"/>
+  <testcase name="And I verify the status code 404 for verifing the delete record" classname="Scenario: Delete the Prodct data for given ID &amp; verify the record are deleted successfully" time="0"/>
+  <testcase name="When I sends the Post Request for create the services Data" classname="Scenario: Create a new services &amp; verify if the services is added" time="0"/>
+  <testcase name="And I insert the name &quot;cash &amp; carry&quot;" classname="Scenario: Create a new services &amp; verify if the services is added" time="0"/>
+  <testcase name="Then I verify the status code 201 for services data" classname="Scenario: Create a new services &amp; verify if the services is added" time="0"/>
+  <testcase name="And I get the id of new created services data" classname="Scenario: Create a new services &amp; verify if the services is added" time="0"/>
+  <testcase name="Scenario: Create a new services &amp; verify if the services is added" classname="Scenario: Create a new services &amp; verify if the services is added" time="0.053"/>
+  <testcase name="When I sends a GET request for fatching services data by given ID" classname="Scenario: Verify the services data are successfully created" time="0"/>
+  <testcase name="Then I verify the name is for created record &quot;cash &amp; carry&quot; for services" classname="Scenario: Verify the services data are successfully created" time="0"/>
+  <testcase name="Scenario: Verify the services data are successfully created" classname="Scenario: Verify the services data are successfully created" time="0.07"/>
+  <testcase name="When I send the Put Request for updating the services data" classname="Scenario: Update the services data for given ID" time="0"/>
+  <testcase name="And I update the name &quot;shop&quot; for services" classname="Scenario: Update the services data for given ID" time="0"/>
+  <testcase name="Then I verify the status code 200 for update services data" classname="Scenario: Update the services data for given ID" time="0"/>
+  <testcase name="And I verify the name is &quot;shop&quot; for updating the services data" classname="Scenario: Update the services data for given ID" time="0"/>
+  <testcase name="Scenario: Update the services data for given ID" classname="Scenario: Update the services data for given ID" time="0.054"/>
+  <testcase name="When I sends the Delete Request for deleting the services  given ID" classname="Scenario: Delete the services data for given ID &amp; verify the record are deleted successfully" time="0"/>
+  <testcase name="Then I verify the status code 200 for delete services data" classname="Scenario: Delete the services data for given ID &amp; verify the record are deleted successfully" time="0"/>
+  <testcase name="And I get the data for deleted record ID for services data" classname="Scenario: Delete the services data for given ID &amp; verify the record are deleted successfully" time="0"/>
+  <testcase name="And I verify the status code 404 for verifing the delete record for services" classname="Scenario: Delete the services data for given ID &amp; verify the record are deleted successfully" time="0"/>
+  <testcase name="Scenario: Delete the services data for given ID &amp; verify the record are deleted successfully" classname="Scenario: Delete the services data for given ID &amp; verify the record are deleted successfully" time="0.059"/>
+</testsuite>

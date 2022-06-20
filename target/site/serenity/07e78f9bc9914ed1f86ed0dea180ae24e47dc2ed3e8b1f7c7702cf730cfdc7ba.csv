@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"End to End testing of services data","Create a new services & verify if the services is added","SUCCESS","2022-06-19T13:36:02.618+01:00[Europe/London]","0.0","0.06"
+"End to End testing of services data","Verify the services data are successfully created","SUCCESS","2022-06-19T13:36:02.727+01:00[Europe/London]","0.0","0.03"
+"End to End testing of services data","Update the services data for given ID","SUCCESS","2022-06-19T13:36:02.824+01:00[Europe/London]","0.0","0.05"
+"End to End testing of services data","Delete the services data for given ID & verify the record are deleted successfully","SUCCESS","2022-06-19T13:36:02.924+01:00[Europe/London]","0.0","0.04"
